@@ -8,7 +8,7 @@ function App() {
 	const [isLoggedIn, setIsLoggedIn] = useState(false)
 
 	useEffect(() => {
-		const dupa = localStorage.getItem("isLoogedOn")
+		const dupa = localStorage.getItem("isLoggedOn")
 
 		if (dupa === "1") {
 			setIsLoggedIn(true)
